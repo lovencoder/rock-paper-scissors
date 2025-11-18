@@ -1,0 +1,100 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    
+}
+
+.subcon1 {
+    text-align: center;
+    margin: 0;
+}
+
+.rules {
+    text-align: center;
+}
+
+.subcon2 {
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 25px;
+
+}
+
+.subcon2a {
+    text-align: center;
+    width: 100px;
+    padding-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.subcon2a1 {
+    margin-bottom: 20px;
+}
+.subcon2a2 {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+   
+}
+
+.subcon3b {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    font-size: 25px;
+
+}
+
+.subcon3b2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    height: 300px;
+    width: 200px;
+    
+
+}
+
+.text1 {
+    font-size: 10px;
+    margin: 0;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 70px;
+    font-size: 20px;
+    background-color: rgb(62, 112, 112);
+    border-radius: 10px;
+}
+
+.subcon4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.subcon4a {
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+

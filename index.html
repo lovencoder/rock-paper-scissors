@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="subcon1">
+            <h1>Play the classic game with a twist! <br>"Rock, Paper, Scissors,Lizard, Spock"</h1>
+        </div>
+        <div class="rules">Rules: ✌️ cut ✋, ✋ covers ✊, ✊ crushes 🦎, 🦎 poisons 🖖, 🖖 smashes ✌️, ✌️ decapitates 🦎, 🦎 eats ✋, ✋ disproves 🖖, 🖖 vaporizes ✊, and as it has always been ✊ crushes ✌️.</div>
+        <div class="subcon2">
+            <div class="subcon2a">
+                    <div class="subcon2a1">
+                    <div class="player">Player</div>
+                    </div>
+                    <div class="subcon2a2">
+                    <button onclick="getHumanChoice('✊')">✊</button>
+                    <br> 
+                    <button onclick="getHumanChoice('✋')">✋</button>
+                    <br>
+                    <button onclick="getHumanChoice('✌️')">✌️</button>
+                    <br>
+                    <button onclick="getHumanChoice('🦎')">🦎</button>
+                    <br>
+                    <button onclick="getHumanChoice('🖖')">🖖</button>
+                    </div>
+             </div>
+             <div class="subcon3b">
+                    <div class="subcon3b1">
+                    <div class="computer">Computer</div>
+                    </div>
+                    <div class="subcon3b2">
+                    <p id="computerHand"></p>
+                    </div>
+            </div>
+        </div>
+        <div class="subcon4">
+            <div id="resutText"></div>
+            <br>
+            <div  id="result">Waiting for first game,,</div>
+            <br>
+            <div id="round">Round: 0</div>
+            <br>
+            <br>
+           <div class="subcon4a">
+                <div id="player1">Player: 0</div>
+                <div id="computer1">Computer: 0</div>
+            </div>
+            <button onclick="resetGame()">RESET</button>
+        </div>
+     </div>
+    <script src="java.js"></script>
+</body>
+</html>
